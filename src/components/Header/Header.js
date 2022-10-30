@@ -1,9 +1,9 @@
 import "./Header.css";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <>
-      <h1>This is Header</h1>
+      <h1 style={{ color: props.color }}>{props.text}</h1>
     </>
   );
 };
