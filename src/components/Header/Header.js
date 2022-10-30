@@ -1,5 +1,6 @@
 import "./Header.css";
 import logo from "../../assets/images/logo.png";
+import NavItem, { NavItemDropDown } from "../NavItem/NavItem";
 
 const Header = () => {
   return (
@@ -18,17 +19,17 @@ const Header = () => {
         </button>
         <div className="collapse navbar-collapse" id="mainmenu">
           <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
+            <NavItem>
               <a href="#hero" className="nav-link">
                 Home
               </a>
-            </li>
-            <li className="nav-item">
+            </NavItem>
+            <NavItem>
               <a href="#features" className="nav-link">
                 Brawse
               </a>
-            </li>
-            <li className="nav-item dropdown">
+            </NavItem>
+            <NavItemDropDown>
               <a
                 href="#"
                 className="nav-link dropdown-toggle"
@@ -48,17 +49,17 @@ const Header = () => {
                   </a>
                 </li>
               </ul>
-            </li>
-            <li className="nav-item">
+            </NavItemDropDown>
+            <NavItem>
               <a href="#faq" className="nav-link">
                 Streams
               </a>
-            </li>
-            <li className="nav-item">
+            </NavItem>
+            <NavItem>
               <a href="./Profile.html" className="nav-link">
                 Profile
               </a>
-            </li>
+            </NavItem>
           </ul>
         </div>
       </div>
