@@ -10,7 +10,7 @@ import { Header, Container, Footer } from "./components/index";
 const App = () => {
   return (
     <>
-      <Header text="New Header" color="red" />
+      <Header />
       <Container>content</Container>
       <Footer />
     </>
