@@ -1,6 +1,6 @@
 import "./Footer.css";
 
-const Footer = (props) => {
+const Footer = () => {
   return (
     <>
       <h1>This is Footer</h1>

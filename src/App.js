@@ -11,7 +11,7 @@ const App = () => {
   return (
     <>
       <Header text="New Header" color="red" />
-      <Container />
+      <Container>content</Container>
       <Footer />
     </>
   );

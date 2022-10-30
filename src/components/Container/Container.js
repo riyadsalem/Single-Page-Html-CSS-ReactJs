@@ -1,11 +1,7 @@
 import "./Container.css";
 
-const Container = () => {
-  return (
-    <>
-      <h1>This is Container</h1>
-    </>
-  );
+const Container = (props) => {
+  return <div>{props.children}</div>;
 };
 
 export default Container;
