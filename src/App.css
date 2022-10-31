@@ -6,10 +6,12 @@
   --color--light: #fff;
   --color--primary: #ec6090;
   --color-bg-body: var(--color--darkest);
+
   --distance-primary: 50px;
   --padding-primary: var(--distance-primary);
   --margin-primary: var(--distance-primary);
   --border-radius-primary: calc(var(--distance-primary) / 2);
+
   --font-weight-bold: 900;
   --font-weight-normal: 400;
   --font-family-promary: "Poppins", sans-serif;
