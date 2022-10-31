@@ -1,5 +1,9 @@
 import "./MostPopular.css";
+import { Card } from "../../components/index";
 import popular_01 from "../../assets/images/popular-01.jpg";
+import popular_02 from "../../assets/images/popular-02.jpg";
+import popular_03 from "../../assets/images/popular-03.jpg";
+import popular_04 from "../../assets/images/popular-04.jpg";
 
 const MostPopular = () => {
   return (
@@ -10,97 +14,62 @@ const MostPopular = () => {
         </div>
         {/* End: section-header */}
         <div className="most-popular-items">
-          <div className="most-popular-item">
-            <div className="card-wrapper">
-              <img className="most-popular-image" src={popular_01} />
-              <div className="most-popular-item-content">
-                <h4 className="most-popular-item-title">
-                  Fortnite <br />
-                  <span>Sandbox</span>
-                </h4>
-                <ul>
-                  <li>
-                    <span>4.8</span>
-                  </li>
-                  <li>
-                    <span>2.3</span>
-                  </li>
-                </ul>
-              </div>
-              {/* End:  most-popular-item-content*/}
-            </div>
-            {/* End: card-wrapper */}
-          </div>
-          {/* End: most-popular-item */}
-
-          <div className="most-popular-item">
-            <div className="card-wrapper">
-              <img className="most-popular-image" src={popular_01} />
-              <div className="most-popular-item-content">
-                <h4 className="most-popular-item-title">
-                  Fortnite <br />
-                  <span>Sandbox</span>
-                </h4>
-                <ul>
-                  <li>
-                    <span>4.8</span>
-                  </li>
-                  <li>
-                    <span>2.3</span>
-                  </li>
-                </ul>
-              </div>
-              {/* End:  most-popular-item-content*/}
-            </div>
-            {/* End: card-wrapper */}
-          </div>
-          {/* End: most-popular-item */}
-
-          <div className="most-popular-item">
-            <div className="card-wrapper">
-              <img className="most-popular-image" src={popular_01} />
-              <div className="most-popular-item-content">
-                <h4 className="most-popular-item-title">
-                  Fortnite <br />
-                  <span>Sandbox</span>
-                </h4>
-                <ul>
-                  <li>
-                    <span>4.8</span>
-                  </li>
-                  <li>
-                    <span>2.3</span>
-                  </li>
-                </ul>
-              </div>
-              {/* End:  most-popular-item-content*/}
-            </div>
-            {/* End: card-wrapper */}
-          </div>
-          {/* End: most-popular-item */}
-
-          <div className="most-popular-item">
-            <div className="card-wrapper">
-              <img className="most-popular-image" src={popular_01} />
-              <div className="most-popular-item-content">
-                <h4 className="most-popular-item-title">
-                  Fortnite <br />
-                  <span>Sandbox</span>
-                </h4>
-                <ul>
-                  <li>
-                    <span>4.8</span>
-                  </li>
-                  <li>
-                    <span>2.3</span>
-                  </li>
-                </ul>
-              </div>
-              {/* End:  most-popular-item-content*/}
-            </div>
-            {/* End: card-wrapper */}
-          </div>
-          {/* End: most-popular-item */}
+          <Card
+            image={popular_01}
+            title="Fortnite"
+            category="Sandbox"
+            rate="3.8"
+            download="2.3M"
+          />
+          <Card
+            image={popular_02}
+            title="PubG"
+            category="Stream-X"
+            rate="4.8"
+            download="1.1M"
+          />
+          <Card
+            image={popular_03}
+            title="Dota2"
+            category="Legendary"
+            rate="2.7"
+            download="5.3M"
+          />
+          <Card
+            image={popular_04}
+            title="GS-Go"
+            category="Battle S"
+            rate="3.9"
+            download="6.1M"
+          />
+          <Card
+            image={popular_04}
+            title="GS-Go"
+            category="Battle S"
+            rate="3.9"
+            download="6.1M"
+          />
+          <Card
+            image={popular_04}
+            title="GS-Go"
+            category="Battle S"
+            rate="3.9"
+            download="6.1M"
+          />
+          <Card
+            image={popular_04}
+            title="GS-Go"
+            category="Battle S"
+            rate="3.9"
+            download="6.1M"
+          />
+          <Card
+            image={popular_04}
+            title="GS-Go"
+            category="Battle S"
+            rate="3.9"
+            download="6.1M"
+          />
         </div>
         {/* End: most-popular-items */}
       </div>
