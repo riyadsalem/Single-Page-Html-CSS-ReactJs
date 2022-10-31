@@ -5,6 +5,7 @@
   --color--darkest: #1f1222;
   --color--light: #fff;
   --color--primary: #ec6090;
+  --color--icons: yellow;
   --color-bg-body: var(--color--darkest);
 
   --distance-primary: 50px;

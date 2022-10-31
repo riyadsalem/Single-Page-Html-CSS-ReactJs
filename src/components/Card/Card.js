@@ -1,5 +1,6 @@
 import "./Card.css";
-
+import { FaDownload, FaStar } from "react-icons/fa";
+// import { BsFillBrightnessHighFill } from "react-icons/bs";
 const Card = (props) => {
   return (
     <>
@@ -13,9 +14,15 @@ const Card = (props) => {
             </h4>
             <ul>
               <li>
+                <span style={{ color: "var(--color--icons)" }}>
+                  <FaStar />
+                </span>
                 <span>{props.rate}</span>
               </li>
               <li>
+                <span style={{ color: "var(--color--primary)" }}>
+                  <FaDownload />
+                </span>
                 <span>{props.download}</span>
               </li>
             </ul>
