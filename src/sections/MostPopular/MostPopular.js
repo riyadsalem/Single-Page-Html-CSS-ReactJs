@@ -42,34 +42,6 @@ const MostPopular = () => {
             rate="3.9"
             download="6.1M"
           />
-          <Card
-            image={popular_04}
-            title="GS-Go"
-            category="Battle S"
-            rate="3.9"
-            download="6.1M"
-          />
-          <Card
-            image={popular_04}
-            title="GS-Go"
-            category="Battle S"
-            rate="3.9"
-            download="6.1M"
-          />
-          <Card
-            image={popular_04}
-            title="GS-Go"
-            category="Battle S"
-            rate="3.9"
-            download="6.1M"
-          />
-          <Card
-            image={popular_04}
-            title="GS-Go"
-            category="Battle S"
-            rate="3.9"
-            download="6.1M"
-          />
         </div>
         {/* End: most-popular-items */}
       </div>
