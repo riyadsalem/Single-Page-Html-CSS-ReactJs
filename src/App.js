@@ -17,7 +17,7 @@ const App = () => {
         <MostPopular />
         <GamingLibrary />
       </Container>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
