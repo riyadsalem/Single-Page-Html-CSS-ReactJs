@@ -1,5 +1,5 @@
 import "./MostPopular.css";
-import { Card } from "../../components/index";
+import { Card, SectionHeader } from "../../components/index";
 import popular_01 from "../../assets/images/popular-01.jpg";
 import popular_02 from "../../assets/images/popular-02.jpg";
 import popular_03 from "../../assets/images/popular-03.jpg";
@@ -9,9 +9,7 @@ const MostPopular = () => {
   return (
     <>
       <div className="section-wrapper">
-        <div className="section-header">
-          <h4>Most Popular</h4>
-        </div>
+        <SectionHeader>Most Popular</SectionHeader>
         {/* End: section-header */}
         <div className="most-popular-items">
           <Card
