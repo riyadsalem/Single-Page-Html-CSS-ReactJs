@@ -17,12 +17,14 @@ const Card = (props) => {
                 <span style={{ color: "var(--color--icons)" }}>
                   <FaStar />
                 </span>
+                &nbsp;
                 <span>{props.rate}</span>
               </li>
               <li>
                 <span style={{ color: "var(--color--primary)" }}>
                   <FaDownload />
                 </span>
+                &nbsp;
                 <span>{props.download}</span>
               </li>
             </ul>
