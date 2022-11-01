@@ -7,10 +7,9 @@ import {
 import GamingLibraryData from "../../Data/GamingLibraryData";
 
 const GamingLibrary = () => {
-  /*
   const cards = GamingLibraryData.map((card) => {
     return (
-      <Card
+      <GamingLibraryCard
         key={card.id}
         image={card.image}
         title={card.title}
@@ -21,15 +20,12 @@ const GamingLibrary = () => {
       />
     );
   });
-  */
 
   return (
     <>
       <SectionWrapper>
         <SectionHeader>Gaming Library</SectionHeader>
-        <div className="most-popular-items">
-          <GamingLibraryCard />
-        </div>
+        <div className="gaming-library-cards">{cards}</div>
         {/* End: most-popular-items */}
       </SectionWrapper>
     </>
