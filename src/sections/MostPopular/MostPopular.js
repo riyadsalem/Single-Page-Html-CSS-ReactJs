@@ -1,5 +1,5 @@
 import "./MostPopular.css";
-import { Card, SectionHeader } from "../../components/index";
+import { Card, SectionHeader, SectionWrapper } from "../../components/index";
 import popular_01 from "../../assets/images/popular-01.jpg";
 import popular_02 from "../../assets/images/popular-02.jpg";
 import popular_03 from "../../assets/images/popular-03.jpg";
@@ -8,7 +8,7 @@ import popular_04 from "../../assets/images/popular-04.jpg";
 const MostPopular = () => {
   return (
     <>
-      <div className="section-wrapper">
+      <SectionWrapper>
         <SectionHeader>Most Popular</SectionHeader>
         {/* End: section-header */}
         <div className="most-popular-items">
@@ -42,8 +42,7 @@ const MostPopular = () => {
           />
         </div>
         {/* End: most-popular-items */}
-      </div>
-      {/* End: section-wrapper */}
+      </SectionWrapper>
     </>
   );
 };
